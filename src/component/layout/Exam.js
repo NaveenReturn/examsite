@@ -86,6 +86,16 @@ export default function ExamCenter(){
     Answer:'எண்ணும்மை',
     refquestion:''                           
  },                                                                                                                  
+   {
+    id:6,
+    question:'கல்கத்தாவில் உள்ள இந்துக் கல்லூரியை நிறுவியவர்',
+    path1:'வாரன் ஹேஸ்டிங்ஸ்',
+    path2:'மார்ஷ்மென்',
+    path3:'மெக்காலே',
+    path4:'ஹேவிட் ஹேர்',
+    Answer:'ஹேவிட் ஹேர்',
+    refquestion:''                           
+ },                                                                                                                  
   ])
   const [subb,setSub] = useState(false)
   const storeAry = [];
